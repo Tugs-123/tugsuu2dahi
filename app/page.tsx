@@ -17,8 +17,12 @@ export default function Home() {
 
   return (
     <>
+     <div>
       <Player {...videoJsOptions} />
+    </div>
+    <div>  
       <PlayerCSS />
+    </div>
     </>
   );
 }

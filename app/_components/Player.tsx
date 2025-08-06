@@ -52,14 +52,14 @@ const Player = (props: PlayerProps) => {
 
     return () => {
       player.dispose();
-    };
+    };  
   }, [props, videoEl]);
 
   return (
     <>
       <h1>The implementation below is using react functions</h1>
       <div data-vjs-player>
-        <video ref={onVideo} className="video-js" playsInline />
+        <video ref={onVideo} className="video-js" playsInline / >
       </div>
     </>
   );

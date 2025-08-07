@@ -57,7 +57,7 @@ const Player = (props: PlayerProps) => {
 
   return (
     <>
-      <h1>The implementation below is using react functions</h1>
+      <h1>Сайн байна уу 2 дахь хөгжүүлэлтээс vercel дээр харж байна</h1>
       <div data-vjs-player>
         <video ref={onVideo} className="video-js" playsInline / >
       </div>
